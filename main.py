@@ -7,10 +7,10 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", "24351668") 
-API_HASH = os.environ.get("API_HASH", "747296838b6f4e7cfcccfcce84522b17") 
-STRING = os.environ.get("STRING", "BQAtXH2zmI8V6BWcnH2iPxP-FkQQT4PDIBN7wOa5NGvWIStHJTefmwzElj6J9KTEWRyvIhYPi78HYaMA5X7TP8nTfTKpG-7jQV7p6LYPG65RtyHYE5RG1XXgj9yz4k-54cagPYsRzN9wiuxP1NAO7XMh_3tD1Q46mIJJ0lUXoMKuYSfbryV943PTNA0DmNUHp41JBpesiV-nwAUc1WTc_bIuP55MINJkwAKYOI9u1i_EqqKPRm1V0Wzd3Ei13rD-2zLNLie2Uncke-0bTU-p31Um0nBQmL7TmRS8GHlqLHyJWCIuIahmYuTy9dsw-pEuctbB_zeuvO93Ntj_xcvohatqAAAAAVLVih0A") 
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://Machinebot:Machinebot@cluster0.1c0dri6.mongodb.net/?retryWrites=true&w=majority")
+API_ID = os.environ.get("API_ID", "") 
+API_HASH = os.environ.get("API_HASH", "") 
+STRING = os.environ.get("STRING", "") 
+MONGO_URL = os.environ.get("MONGO_URL", "")
 
 
 bot = Client(STRING, API_ID, API_HASH)
